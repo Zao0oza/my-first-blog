@@ -1,0 +1,158 @@
+[33mcommit 1a980cfb57347db0c980476cca0e460e0fcea319[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Zao0oza <sefeigin@mail.ru>
+Date:   Sun Feb 3 12:42:55 2019 +0300
+
+    My Django Girls app, first commit2
+
+[1mdiff --git a/gitignore.gitignore.gitignore b/.gitignore[m
+[1msimilarity index 100%[m
+[1mrename from gitignore.gitignore.gitignore[m
+[1mrename to .gitignore[m
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex e1f0b7c..f2a248c 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -1,7 +1,11 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+[31m-    <list default="true" id="6068207e-fd3f-4f6d-9099-b0fbc608aed3" name="Default Changelist" comment="" />[m
+[32m+[m[32m    <list default="true" id="6068207e-fd3f-4f6d-9099-b0fbc608aed3" name="Default Changelist" comment="">[m
+[32m+[m[32m      <change afterPath="$PROJECT_DIR$/blog/.gitignore" afterDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />[m
+[32m+[m[32m      <change beforePath="$PROJECT_DIR$/gitignore.gitignore.gitignore" beforeDir="false" />[m
+[32m+[m[32m    </list>[m
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />[m
+     <option name="SHOW_DIALOG" value="false" />[m
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />[m
+[36m@@ -16,7 +20,7 @@[m
+       <file pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/django_1/settings.py">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="177">[m
+[32m+[m[32m            <state relative-caret-position="663">[m
+               <caret line="39" selection-start-line="39" selection-end-line="39" />[m
+             </state>[m
+           </provider>[m
+[36m@@ -25,7 +29,7 @@[m
+       <file pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/blog/models.py">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[31m-            <state relative-caret-position="141">[m
+[32m+[m[32m            <state relative-caret-position="170">[m
+               <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />[m
+               <folding>[m
+                 <element signature="e#0#28#0" expanded="true" />[m
+[36m@@ -34,7 +38,7 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[31m-      <file pinned="false" current-in-tab="true">[m
+[32m+[m[32m      <file pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/blog/admin.py">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+             <state relative-caret-position="51">[m
+[36m@@ -46,6 +50,15 @@[m
+           </provider>[m
+         </entry>[m
+       </file>[m
+[32m+[m[32m      <file pinned="false" current-in-tab="true">[m
+[32m+[m[32m        <entry file="file://$PROJECT_DIR$/blog/.gitignore">[m
+[32m+[m[32m          <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m            <state relative-caret-position="102">[m
+[32m+[m[32m              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />[m
+[32m+[m[32m            </state>[m
+[32m+[m[32m          </provider>[m
+[32m+[m[32m        </entry>[m
+[32m+[m[32m      </file>[m
+       <file pinned="false" current-in-tab="false">[m
+         <entry file="file://$PROJECT_DIR$/django_1/urls.py">[m
+           <provider selected="true" editor-type-id="text-editor">[m
+[36m@@ -85,6 +98,7 @@[m
+         <option value="$PROJECT_DIR$/django_1/settings.py" />[m
+         <option value="$PROJECT_DIR$/blog/models.py" />[m
+         <option value="$PROJECT_DIR$/blog/admin.py" />[m
+[32m+[m[32m        <option value="$PROJECT_DIR$/blog/.gitignore" />[m
+       </list>[m
+     </option>[m
+   </component>[m
+[36m@@ -100,6 +114,7 @@[m
+       <foldersAlwaysOnTop value="true" />[m
+     </navigator>[m
+     <panes>[m
+[32m+[m[32m      <pane id="Scope" />[m
+       <pane id="ProjectPane">[m
+         <subPane>[m
+           <expand>[m
+[36m@@ -121,7 +136,6 @@[m
+           <select />[m
+         </subPane>[m
+       </pane>[m
+[31m-      <pane id="Scope" />[m
+     </panes>[m
+   </component>[m
+   <component name="PropertiesComponent">[m
+[36m@@ -181,16 +195,18 @@[m
+       <updated>1549008239625</updated>[m
+       <workItem from="1549008241026" duration="3654000" />[m
+       <workItem from="1549103193422" duration="1931000" />[m
+[32m+[m[32m      <workItem from="1549179703127" duration="1239000" />[m
+     </task>[m
+     <servers />[m
+   </component>[m
+   <component name="TimeTrackingManager">[m
+[31m-    <option name="totallyTimeSpent" value="5585000" />[m
+[32m+[m[32m    <option name="totallyTimeSpent" value="6824000" />[m
+   </component>[m
+   <component name="ToolWindowManager">[m
+     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />[m
+[32m+[m[32m    <editor active="true" />[m
+     <layout>[m
+[31m-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />[m
+[32m+[m[32m      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />[m
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />[m
+       <window_info id="Favorites" order="2" side_tool="true" />[m
+       <window_info anchor="bottom" id="Message" order="0" />[m
+[36m@@ -217,6 +233,23 @@[m
+     <option name="version" value="1" />[m
+   </component>[m
+   <component name="editorHistoryManager">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/django_1/settings.py">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="663">[m
+[32m+[m[32m          <caret line="39" selection-start-line="39" selection-end-line="39" />[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/blog/models.py">[m
+[32m+[m[32m      <provider selected="true" editor-type-id="text-editor">[m
+[32m+[m[32m        <state relative-caret-position="170">[m
+[32m+[m[32m          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />[m
+[32m+[m[32m          <folding>[m
+[32m+[m[32m            <element signature="e#0#28#0" expanded="true" />[m
+[32m+[m[32m          </folding>[m
+[32m+[m[32m        </state>[m
+[32m+[m[32m      </provider>[m
+[32m+[m[32m    </entry>[m
+     <entry file="file://$PROJECT_DIR$/django_1/urls.py">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+         <state relative-caret-position="340">[m
+[36m@@ -234,20 +267,10 @@[m
+         </state>[m
+       </provider>[m
+     </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/django_1/settings.py">[m
+[31m-      <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="177">[m
+[31m-          <caret line="39" selection-start-line="39" selection-end-line="39" />[m
+[31m-        </state>[m
+[31m-      </provider>[m
+[31m-    </entry>[m
+[31m-    <entry file="file://$PROJECT_DIR$/blog/models.py">[m
+[32m+[m[32m    <entry file="file://$PROJECT_DIR$/gitignore.gitignore">[m
+       <provider selected="true" editor-type-id="text-editor">[m
+[31m-        <state relative-caret-position="141">[m
+[31m-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />[m
+[31m-          <folding>[m
+[31m-            <element signature="e#0#28#0" expanded="true" />[m
+[31m- 
